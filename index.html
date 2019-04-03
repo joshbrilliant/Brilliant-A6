@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">        
+        
+        <style>
+            /* put your css styles here...*/
+            .card { height: 200px; margin-bottom: 10px}
+            .card-title { background-color: gray; color: white; padding: 5px; min-height: 2em}
+            .card-body { padding: 0px;}
+            p { padding: 5px;}
+            h4 {margin-top: 40px}
+        </style>
+    </head>
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand" href="#">MCLA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">MyMCLA Login</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Quick Links
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Academic Calander</a>
+          <a class="dropdown-item" href="#">Administrative Offices</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Veteran Information</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    
+    <body>
+        <div class="jumbotron jumbotron-fluid bg-primary">
+            <div class="container">
+                <h4 class="display-4">Welcome to MCLA!</h4>
+                <p class="lead">MCLA is a super great little college in North Adams. It's like one of two things North Adams really has, so check it out!</p>
+                
+                <p>There's all kinds of great events and stuff going on at MCLA! There's a Diversity confrence! 
+                They just opened a new little branch on Allen Street in Pittsfield! It's Great!</p>
+            </div>
+        </div>        
+        
+
+        
+        <div class="container">
+            
+            <h4>Login</h4>
+            <form class="border border-primary p-3">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Forgot Password
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Silly you</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Oops! You forgot your password!</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Try to remember it</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary float-right">Submit</button>
+                <div class="clearfix"></div>
+            </form>  
+            
+            <h4>Discover MCLA!</h4>
+            <button type="button" class="btn btn-info">Explore our programs of study</button>
+            <button type="button" class="btn btn-primary">Visit Campus</button>
+            <button type="button" class="btn btn-info">Connect with Alumni</button>
+            <button type="button" class="btn btn-primary">Apply now!</button>
+          
+            <h4>MCLA News</h4>
+            
+            <div class="card bg-primary" style="width: 50rem;">
+                <ul class="list-group list-group-fluid">
+                    <li class="list-group-item">Welcome to MCLA - 
+                    MCLA is a liberal arts college in the beautiful Berkshires with a supportive, inclusive community, 
+                    80+ academic programs, hundreds of internship options, and hundreds of ways for you to shine. Find 
+                    out more and schedule a visit now.</li>
+                    <li class="list-group-item">Southern Vermont College Transfer Students</li>
+                    <li class="list-group-item">MCLA Named Top Four-Year Public College in MA for Gender Equality</li>
+                </ul>
+            </div>       
+            
+  
+            
+            <h4>Discover MCLA!</h4>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary bg-primary">Request Information</button>
+                <button type="button" class="btn btn-secondary bg-warning">Social Media Hub</button>
+                <button type="button" class="btn btn-secondary bg-primary">Career Services</button>
+                <button type="button" class="btn btn-secondary bg-warning">Register for Summer</button>
+                <button type="button" class="btn btn-secondary bg-primary">Upcoming Events</button>
+            </div>            
+            
+         
+            <h4>Discover the best classes in the school!</h4>
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="ddID" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                The Only Classes that matter
+              </button>
+              <div class="dropdown-menu" aria-labelledby="ddID">
+                <a class="dropdown-item" href="#">Server Side Programming</a>
+                <a class="dropdown-item" href="#">Database</a>
+                <a class="dropdown-item" href="#">Data Structures</a>
+                <a class="dropdown-item" href="#">Machine Learning</a>
+                <a class="dropdown-item" href="#">Object Oriented Programming</a>
+              </div>
+            </div>            
+            
+           <h4>Learn all about these coolest classes!</h4>
+            
+            <div class="row bg-primary p-2">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-warning">
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <h5 class="card-title bg-warning">Server Side Programming</h5>
+                            <p>A super fun class that teaches you how to create full stack and web-based
+                            applications!</p>
+                        </div>
+                    </div>                
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-warning">
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <h5 class="card-title bg-warning">Database</h5>
+                            <p>Learn all about SQL code, then promptly forget all of it over the Winter break (bad idea!)</p>
+                            </div>
+                    </div>                
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-warning">
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <h5 class="card-title bg-warning">Data Structures</h5>
+                            <p>This class is very important to know all the different Data Structures Built into Java, from Queues to Trees!</p>
+                        </div>
+                    </div>                
+                </div>            
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-warning">
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <h5 class="card-title bg-warning">Machine Learning</h5>
+                            <p>Get all kinds of data then teach a computer to look at it and draw conclusions about it!</p>
+                        </div>
+                    </div>                
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-warning">
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <h5 class="card-title bg-warning">Object Oriented Programming</h5>
+                            <p>Everything is an object! Make objects out ofobjects then make that an object! Abstraction is fun!</p>
+                        </div>
+                    </div>                
+                </div>
+            </div>                  
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>        
+        
+        <script>
+        /* global $ */
+        // put your JavaScript code here...
+        
+            
+        </script>
+    </body>
+
+</html>
